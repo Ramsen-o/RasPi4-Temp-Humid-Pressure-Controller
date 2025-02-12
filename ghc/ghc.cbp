@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ghc" />
+		<Option makefile="makefile" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="ghc" prefix_auto="1" extension_auto="1" />
+				<Option object_output="/home/pi/ceng153/labs/ghc/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="$make -f $makefile " />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile " />
+					<SilentBuild command="$make -f $makefile  &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="LICENCE.txt" />
+		<Unit filename="ghc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ghcontrol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ghcontrol.h" />
+		<Unit filename="hts221.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hts221.h" />
+		<Unit filename="led2472g.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="led2472g.h" />
+		<Unit filename="lps25h.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lps25h.h" />
+		<Unit filename="makefile" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
