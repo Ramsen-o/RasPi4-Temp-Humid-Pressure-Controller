@@ -1,6 +1,5 @@
 # Greenhouse Controller - Raspberry Pi 4
-
-# C source files and header files must be extracted to the main program folder in order to run.
+C source files and header files must be extracted to the main program folder in order to run.
 
 ## Overview
 The **Greenhouse Controller** is a Raspberry Pi 4 project that displays real-time sensor data for **temperature, humidity, and pressure**. The readings are visualized in two ways:
