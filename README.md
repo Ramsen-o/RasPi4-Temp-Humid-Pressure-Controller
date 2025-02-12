@@ -8,7 +8,7 @@ The **Greenhouse Controller** is a Raspberry Pi 4 project that displays real-tim
 
 ### **Visual Representation**
 - **Green bars** indicate the **current** temperature.
-- - **Red bars** indicate the **current** humidity
+- **Red bars** indicate the **current** humidity
 - **Blue bars** indicate the **current** pressure.
 - **Purple squares** represent the **target setpoints** for temperature and humidity.
 
